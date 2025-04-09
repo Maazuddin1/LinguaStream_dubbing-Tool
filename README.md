@@ -6,6 +6,7 @@ colorFrom: yellow
 colorTo: green
 pinned: true
 short_description: 'A Multilingual Audio and Video dubbing tool '
+sdk_version: 5.24.0
 ---
 # Video Translator 🌐
 
