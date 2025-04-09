@@ -1,17 +1,14 @@
 # Core dependencies
-# Use these EXACT versions with pre-built wheels
-moviepy==1.0.3 --only-binary=:all:
-pysrt==1.1.2 --only-binary=:all:
-imageio==2.31.1 --only-binary=:all:
-imageio-ffmpeg==0.4.8 --only-binary=:all:
 gradio==3.50.2
 python-dotenv==1.0.0
 tqdm==4.66.1
 
-# Video and audio processing
+# Video and audio processing (WITH BINARY FLAGS)
 ffmpeg-python==0.2.0
-moviepy==1.0.3
+moviepy==1.0.3 --only-binary=:all:
 pydub==0.25.1
+imageio==2.31.1 --only-binary=:all:
+imageio-ffmpeg==0.4.8 --only-binary=:all:
 
 # Speech recognition and text-to-speech
 assemblyai==0.15.1
@@ -19,10 +16,7 @@ gTTS==2.3.2
 
 # Translation and subtitle handling
 deep-translator==1.9.2
-pysrt==1.1.2
-
-moviepy==1.0.3 --prefer-binary
-pysrt==1.1.2 --prefer-binary
+pysrt==1.1.2 --only-binary=:all:
 
 # Utility packages
 loguru==0.7.2
