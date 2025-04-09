@@ -1,3 +1,12 @@
+---
+title: LinguaStream
+sdk: gradio
+emoji: 🌍
+colorFrom: yellow
+colorTo: green
+pinned: true
+short_description: 'A Multilingual Audio and Video dubbing tool '
+---
 # Video Translator 🌐
 
 A complete video translation system that converts videos into multiple languages by translating both subtitles and audio.
