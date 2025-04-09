@@ -1,5 +1,4 @@
---prefer-binary
-Cython==3.0.10  
+
 # Core dependencies
 gradio==3.50.2
 python-dotenv==1.0.0
