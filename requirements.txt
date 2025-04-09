@@ -5,7 +5,8 @@ tqdm==4.66.1
 
 # Video/audio processing (USE THESE EXACT VERSIONS)
 ffmpeg-python==0.2.0
-moviepy==1.0.3 --only-binary :all:
+#moviepy==1.0.3 --only-binary :all:
+moviepy==2.1.2
 imageio==2.31.1
 imageio-ffmpeg==0.4.8
 
