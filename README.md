@@ -3,7 +3,7 @@ title: LinguaStream
 sdk: gradio
 emoji: 🌍
 colorFrom: yellow
-colorTo: green
+colorTo: purple
 pinned: true
 short_description: 'A Multilingual Audio and Video dubbing tool '
 sdk_version: 5.24.0
