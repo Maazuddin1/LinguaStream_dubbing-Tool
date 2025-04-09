@@ -1,4 +1,9 @@
 # Core dependencies
+# Use these EXACT versions with pre-built wheels
+moviepy==1.0.3 --only-binary=:all:
+pysrt==1.1.2 --only-binary=:all:
+imageio==2.31.1 --only-binary=:all:
+imageio-ffmpeg==0.4.8 --only-binary=:all:
 gradio==3.50.2
 python-dotenv==1.0.0
 tqdm==4.66.1
