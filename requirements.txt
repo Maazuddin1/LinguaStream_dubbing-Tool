@@ -5,7 +5,7 @@ tqdm==4.66.1
 
 # Video/audio processing (USE THESE EXACT VERSIONS)
 ffmpeg-python==0.2.0
---no-build-isolation moviepypydub==0.25.1
+moviepy==1.0.3 --only-binary :all:
 imageio==2.31.1
 imageio-ffmpeg==0.4.8
 
@@ -15,7 +15,7 @@ gTTS==2.3.2
 
 # Translation
 deep-translator==1.9.2
---no-build-isolation pysrt
+pysrt==1.1.2 --only-binary :all:
 
 # Utilities
 loguru==0.7.2
