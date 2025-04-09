@@ -1,0 +1,31 @@
+video-translator/
+├── .gitignore
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── app.py                    # Main Gradio app entry point
+├── config.py                 # Configuration and constants
+├── .env.example              # Example environment variables
+├── src/
+│   ├── __init__.py
+│   ├── audio/
+│   │   ├── __init__.py
+│   │   ├── extractor.py      # Audio extraction from video
+│   │   └── generator.py      # TTS generation
+│   ├── video/
+│   │   ├── __init__.py
+│   │   └── processor.py      # Video processing functions
+│   ├── subtitles/
+│   │   ├── __init__.py
+│   │   ├── transcriber.py    # Subtitle generation
+│   │   └── translator.py     # Subtitle translation
+│   └── utils/
+│       ├── __init__.py
+│       └── logger.py         # Logging configuration
+├── tests/
+│   ├── __init__.py
+│   ├── test_audio.py
+│   ├── test_subtitles.py
+│   └── test_video.py
+└── outputs/                  # Output directory (generated)
+    └── .gitkeep
