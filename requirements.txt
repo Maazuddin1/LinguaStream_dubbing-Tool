@@ -3,20 +3,20 @@ gradio==3.50.2
 python-dotenv==1.0.0
 tqdm==4.66.1
 
-# Video and audio processing (WITH BINARY FLAGS)
+# Video/audio processing (USE THESE EXACT VERSIONS)
 ffmpeg-python==0.2.0
-moviepy==1.0.3 --only-binary=:all:
+moviepy==1.0.0  # Version that actually exists
 pydub==0.25.1
-imageio==2.31.1 --only-binary=:all:
-imageio-ffmpeg==0.4.8 --only-binary=:all:
+imageio==2.31.1
+imageio-ffmpeg==0.4.8
 
-# Speech recognition and text-to-speech
+# Speech processing
 assemblyai==0.15.1
 gTTS==2.3.2
 
-# Translation and subtitle handling
+# Translation
 deep-translator==1.9.2
-pysrt==1.1.2 --only-binary=:all:
+pysrt==1.1.2
 
-# Utility packages
+# Utilities
 loguru==0.7.2
