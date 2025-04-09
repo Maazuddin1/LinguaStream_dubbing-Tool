@@ -5,7 +5,7 @@ tqdm==4.66.1
 
 # Video and audio processing
 ffmpeg-python==0.2.0
-moviepy==1.0.3
+#moviepy==1.0.3
 pydub==0.25.1
 
 # Speech recognition and text-to-speech
@@ -14,7 +14,10 @@ gTTS==2.3.2
 
 # Translation and subtitle handling
 deep-translator==1.9.2
-pysrt==1.1.2
+#pysrt==1.1.2
+
+moviepy==1.0.3 --prefer-binary
+pysrt==1.1.2 --prefer-binary
 
 # Utility packages
 loguru==0.7.2
