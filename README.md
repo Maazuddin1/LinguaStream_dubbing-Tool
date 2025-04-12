@@ -6,7 +6,7 @@ colorFrom: yellow
 colorTo: purple
 pinned: true
 short_description: 'A Multilingual Audio and Video dubbing tool '
-sdk_version: 5.24.0
+sdk_version: 5.25.0
 ---
 # Video Translator 🌐
 
@@ -34,8 +34,8 @@ A complete video translation system that converts videos into multiple languages
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/video-translator.git
-cd video-translator
+git clone https://github.com/Maaz1/LinguaStream.git
+cd LinguaStream
 ```
 
 2. Install dependencies:
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 4. Set up your API key:
    - Copy `.env.example` to `.env`
-   - Add your AssemblyAI API key to the `.env` file
+   - Add your AssemblyAI API key to the `.env` file (to get audio text)
 
 ## Usage
 
