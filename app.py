@@ -157,5 +157,5 @@ def create_app():
 
 if __name__ == "__main__":
     app = create_app()
-    app.launch(share=True, enable_queue=True)
+    app.launch(share=True) #, enable_queue=True
     logger.info("Starting Video Translator application...")
