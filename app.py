@@ -104,8 +104,8 @@ def create_app():
         gr.Blocks: Configured Gradio application
     """
     with gr.Blocks(title="Video Translator") as app:
-        gr.Markdown("# 🌐 Video Translator")
-        gr.Markdown("Upload a video and translate it to different languages with subtitles!")
+        gr.Markdown("# LinguaStream➿")
+        gr.Markdown("A Multilingual Audio and Video dubbing tool with supported subtitles.")
         
         with gr.Row():
             with gr.Column(scale=1):
