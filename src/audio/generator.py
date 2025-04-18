@@ -144,6 +144,8 @@ def generate_translated_audio(srt_path, target_lang, video_duration=180):
             cmd.extend(['-i', str(audio_file)])
         
         # Add filter complex and output
+        output_audio = OUTPUT_DIR / f"translated_audio_{target_lang}.mp3"
+
         output_audio = OUTPUT_DIR / f"translated_audio_{target_lang}.wav"
         cmd.extend([
             '-filter_complex', filter_complex,

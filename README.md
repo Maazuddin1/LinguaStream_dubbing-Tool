@@ -8,6 +8,7 @@ pinned: true
 short_description: 'A Multilingual Audio and Video dubbing tool '
 sdk_version: 5.25.0
 ---
+
 # Video Translator 🌐
 
 A complete video translation system that converts videos into multiple languages by translating both subtitles and audio.
